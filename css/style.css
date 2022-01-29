@@ -21,7 +21,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--red);
-  background-image: url("/images/bg-intro-mobile.png");
+  background-image: url("../images/bg-intro-mobile.png");
   color: #fff;
   text-align: center;
   display: flex;
@@ -146,7 +146,7 @@ p.user-content a {
 
 @media only screen and (min-width: 64em) {
   body {
-    background-image: url("/images/bg-intro-desktop.png");
+    background-image: url("../images/bg-intro-desktop.png");
   }
   .main-container {
     width: 85%;
